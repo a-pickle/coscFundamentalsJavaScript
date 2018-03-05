@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+#ball{
+  width: 100px;
+  height: 100px;
+  background-color: #F00;
+  border-radius: 50px;
+
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0px);
+
+  }
+  50%{
+    transform: translateY(150px) scaleY(.75);
+  }
+  52%{
+    transform: scaleY(.75);
+  }
+  55%{
+    transform: scaleY(1);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}

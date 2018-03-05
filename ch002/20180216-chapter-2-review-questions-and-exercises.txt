@@ -1,0 +1,93 @@
+Chapter 2
+Review Questions:
+  1.  The domain and the set of operations,
+  2.  l - 1.1X+11
+  3.  a.) 6.02252E23;
+      b.) 2.997925E10
+      c.) 5.29167E-9
+      d.) 3.1415926535E1
+  4.  a, b, c, f, h, k, l
+  5.  Modulo, which computes the remainder after division.
+  6.  False
+  7.  a.) 4.25
+      b.) 2
+      c.) 42
+      d.) 42
+  8.  salary *= 2;
+  9.  x ++;
+  10. constant: Math.CONSTANT;
+      function: Math.function();
+  11. a.) 6
+      b.) 5
+      c.) 6
+      d.) -6
+      e.) 5
+  12. Anything between zero and one.
+  13. Using the double quotation marks, i.e. "string value"
+  14. By entering str.length
+  15. Attaching one string to the end of another string, for example, concatenating "new" and "speak" would give us the string "newspeak"
+  16. By looking at the datatypes - if either of the operands are strings, it will concatenate.  If they are BOTH numbers, it will perform addition.
+  17. No, because "double" is not sufficiently descriptive as to what the function does.
+  18. a.) 579
+      b.) 123456
+      c.) Catch-22
+      d.) Citizen4
+
+Exercises:
+1.
+function questionOne(x) {
+  return x * x - 5 * x + 6;
+}
+
+2.
+function sumFirstNIntegers(n) {
+  return (n * (n + 1)) / 2;
+}
+
+3.
+function quotient(x, y) {
+  return (x - (x % y)) / y;
+}
+x/y | 0
+
+4.
+function representativesFromStIves() {
+  let numberOfWives = 7;
+  let numberOfSacks = 7;
+  let numberOfCats = 7;
+  let numberOfKits = 7;
+  return "There are a total of " + (numberOfWives * numberOfSacks * numberOfCats * numberOfKits) + " representatives coming from St. Ives."
+}
+
+5.
+function fahrenheitToCelsius(f) {
+  return (f - 32) / (9 / 5);
+}
+
+6.
+function triangleArea(base, height) {
+  return (base * height) / 2;
+}
+
+7.
+function sphereVolume(radius) {
+  return 4 / 3 * Math.PI * (radius * radius * radius);
+}
+
+8.
+function quote(str) {
+  return '"' + str + '"';
+}
+
+9.
+function negate(str) {
+	return "un" + str;
+}
+
+function intensify(str) {
+	return "plus" + str;
+}
+
+function reinforce(str) {
+	return "double" + str;
+}
